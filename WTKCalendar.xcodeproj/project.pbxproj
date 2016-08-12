@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F57A24381D5C0AED00A8BF70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57A24371D5C0AED00A8BF70 /* AppDelegate.swift */; };
+		F57A243A1D5C0AED00A8BF70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57A24391D5C0AED00A8BF70 /* ViewController.swift */; };
+		F57A243D1D5C0AED00A8BF70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57A243B1D5C0AED00A8BF70 /* Main.storyboard */; };
+		F57A243F1D5C0AED00A8BF70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57A243E1D5C0AED00A8BF70 /* Assets.xcassets */; };
+		F57A24421D5C0AED00A8BF70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57A24401D5C0AED00A8BF70 /* LaunchScreen.storyboard */; };
+		F57A244D1D5C0AED00A8BF70 /* WTKCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57A244C1D5C0AED00A8BF70 /* WTKCalendarTests.swift */; };
+		F57A24581D5C0AED00A8BF70 /* WTKCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57A24571D5C0AED00A8BF70 /* WTKCalendarUITests.swift */; };
+		F57A24661D5C0B2900A8BF70 /* WTKCalCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57A24651D5C0B2900A8BF70 /* WTKCalCollectionView.swift */; };
+		F57A246F1D5C168500A8BF70 /* wtkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57A246D1D5C168500A8BF70 /* wtkCollectionViewCell.swift */; };
+		F57A24701D5C168500A8BF70 /* wtkCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57A246E1D5C168500A8BF70 /* wtkCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F57A24491D5C0AED00A8BF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F57A242C1D5C0AED00A8BF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F57A24331D5C0AED00A8BF70;
+			remoteInfo = WTKCalendar;
+		};
+		F57A24541D5C0AED00A8BF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F57A242C1D5C0AED00A8BF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F57A24331D5C0AED00A8BF70;
+			remoteInfo = WTKCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F57A24341D5C0AED00A8BF70 /* WTKCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTKCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57A24371D5C0AED00A8BF70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F57A24391D5C0AED00A8BF70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F57A243C1D5C0AED00A8BF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F57A243E1D5C0AED00A8BF70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F57A24411D5C0AED00A8BF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F57A24431D5C0AED00A8BF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57A24481D5C0AED00A8BF70 /* WTKCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57A244C1D5C0AED00A8BF70 /* WTKCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTKCalendarTests.swift; sourceTree = "<group>"; };
+		F57A244E1D5C0AED00A8BF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57A24531D5C0AED00A8BF70 /* WTKCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57A24571D5C0AED00A8BF70 /* WTKCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTKCalendarUITests.swift; sourceTree = "<group>"; };
+		F57A24591D5C0AED00A8BF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57A24651D5C0B2900A8BF70 /* WTKCalCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTKCalCollectionView.swift; sourceTree = "<group>"; };
+		F57A246D1D5C168500A8BF70 /* wtkCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wtkCollectionViewCell.swift; sourceTree = "<group>"; };
+		F57A246E1D5C168500A8BF70 /* wtkCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = wtkCollectionViewCell.xib; sourceTree = "<group>"; };
+		F57A24711D5C194300A8BF70 /* WTKCalendar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WTKCalendar-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F57A24311D5C0AED00A8BF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57A24451D5C0AED00A8BF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57A24501D5C0AED00A8BF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F57A242B1D5C0AED00A8BF70 = {
+			isa = PBXGroup;
+			children = (
+				F57A24361D5C0AED00A8BF70 /* WTKCalendar */,
+				F57A244B1D5C0AED00A8BF70 /* WTKCalendarTests */,
+				F57A24561D5C0AED00A8BF70 /* WTKCalendarUITests */,
+				F57A24351D5C0AED00A8BF70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F57A24351D5C0AED00A8BF70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F57A24341D5C0AED00A8BF70 /* WTKCalendar.app */,
+				F57A24481D5C0AED00A8BF70 /* WTKCalendarTests.xctest */,
+				F57A24531D5C0AED00A8BF70 /* WTKCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F57A24361D5C0AED00A8BF70 /* WTKCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F57A24371D5C0AED00A8BF70 /* AppDelegate.swift */,
+				F57A24391D5C0AED00A8BF70 /* ViewController.swift */,
+				F57A24651D5C0B2900A8BF70 /* WTKCalCollectionView.swift */,
+				F57A246D1D5C168500A8BF70 /* wtkCollectionViewCell.swift */,
+				F57A246E1D5C168500A8BF70 /* wtkCollectionViewCell.xib */,
+				F57A243B1D5C0AED00A8BF70 /* Main.storyboard */,
+				F57A243E1D5C0AED00A8BF70 /* Assets.xcassets */,
+				F57A24401D5C0AED00A8BF70 /* LaunchScreen.storyboard */,
+				F57A24431D5C0AED00A8BF70 /* Info.plist */,
+				F57A24711D5C194300A8BF70 /* WTKCalendar-Bridging-Header.h */,
+			);
+			path = WTKCalendar;
+			sourceTree = "<group>";
+		};
+		F57A244B1D5C0AED00A8BF70 /* WTKCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				F57A244C1D5C0AED00A8BF70 /* WTKCalendarTests.swift */,
+				F57A244E1D5C0AED00A8BF70 /* Info.plist */,
+			);
+			path = WTKCalendarTests;
+			sourceTree = "<group>";
+		};
+		F57A24561D5C0AED00A8BF70 /* WTKCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F57A24571D5C0AED00A8BF70 /* WTKCalendarUITests.swift */,
+				F57A24591D5C0AED00A8BF70 /* Info.plist */,
+			);
+			path = WTKCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F57A24331D5C0AED00A8BF70 /* WTKCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57A245C1D5C0AED00A8BF70 /* Build configuration list for PBXNativeTarget "WTKCalendar" */;
+			buildPhases = (
+				F57A24301D5C0AED00A8BF70 /* Sources */,
+				F57A24311D5C0AED00A8BF70 /* Frameworks */,
+				F57A24321D5C0AED00A8BF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTKCalendar;
+			productName = WTKCalendar;
+			productReference = F57A24341D5C0AED00A8BF70 /* WTKCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F57A24471D5C0AED00A8BF70 /* WTKCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57A245F1D5C0AED00A8BF70 /* Build configuration list for PBXNativeTarget "WTKCalendarTests" */;
+			buildPhases = (
+				F57A24441D5C0AED00A8BF70 /* Sources */,
+				F57A24451D5C0AED00A8BF70 /* Frameworks */,
+				F57A24461D5C0AED00A8BF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F57A244A1D5C0AED00A8BF70 /* PBXTargetDependency */,
+			);
+			name = WTKCalendarTests;
+			productName = WTKCalendarTests;
+			productReference = F57A24481D5C0AED00A8BF70 /* WTKCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F57A24521D5C0AED00A8BF70 /* WTKCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57A24621D5C0AED00A8BF70 /* Build configuration list for PBXNativeTarget "WTKCalendarUITests" */;
+			buildPhases = (
+				F57A244F1D5C0AED00A8BF70 /* Sources */,
+				F57A24501D5C0AED00A8BF70 /* Frameworks */,
+				F57A24511D5C0AED00A8BF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F57A24551D5C0AED00A8BF70 /* PBXTargetDependency */,
+			);
+			name = WTKCalendarUITests;
+			productName = WTKCalendarUITests;
+			productReference = F57A24531D5C0AED00A8BF70 /* WTKCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F57A242C1D5C0AED00A8BF70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王同科";
+				TargetAttributes = {
+					F57A24331D5C0AED00A8BF70 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F57A24471D5C0AED00A8BF70 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F57A24331D5C0AED00A8BF70;
+					};
+					F57A24521D5C0AED00A8BF70 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F57A24331D5C0AED00A8BF70;
+					};
+				};
+			};
+			buildConfigurationList = F57A242F1D5C0AED00A8BF70 /* Build configuration list for PBXProject "WTKCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F57A242B1D5C0AED00A8BF70;
+			productRefGroup = F57A24351D5C0AED00A8BF70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F57A24331D5C0AED00A8BF70 /* WTKCalendar */,
+				F57A24471D5C0AED00A8BF70 /* WTKCalendarTests */,
+				F57A24521D5C0AED00A8BF70 /* WTKCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F57A24321D5C0AED00A8BF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57A24421D5C0AED00A8BF70 /* LaunchScreen.storyboard in Resources */,
+				F57A243F1D5C0AED00A8BF70 /* Assets.xcassets in Resources */,
+				F57A243D1D5C0AED00A8BF70 /* Main.storyboard in Resources */,
+				F57A24701D5C168500A8BF70 /* wtkCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57A24461D5C0AED00A8BF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57A24511D5C0AED00A8BF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F57A24301D5C0AED00A8BF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57A24661D5C0B2900A8BF70 /* WTKCalCollectionView.swift in Sources */,
+				F57A243A1D5C0AED00A8BF70 /* ViewController.swift in Sources */,
+				F57A24381D5C0AED00A8BF70 /* AppDelegate.swift in Sources */,
+				F57A246F1D5C168500A8BF70 /* wtkCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57A24441D5C0AED00A8BF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57A244D1D5C0AED00A8BF70 /* WTKCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57A244F1D5C0AED00A8BF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57A24581D5C0AED00A8BF70 /* WTKCalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F57A244A1D5C0AED00A8BF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F57A24331D5C0AED00A8BF70 /* WTKCalendar */;
+			targetProxy = F57A24491D5C0AED00A8BF70 /* PBXContainerItemProxy */;
+		};
+		F57A24551D5C0AED00A8BF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F57A24331D5C0AED00A8BF70 /* WTKCalendar */;
+			targetProxy = F57A24541D5C0AED00A8BF70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F57A243B1D5C0AED00A8BF70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F57A243C1D5C0AED00A8BF70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F57A24401D5C0AED00A8BF70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F57A24411D5C0AED00A8BF70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F57A245A1D5C0AED00A8BF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F57A245B1D5C0AED00A8BF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F57A245D1D5C0AED00A8BF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WTKCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WTKCalendar/WTKCalendar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F57A245E1D5C0AED00A8BF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WTKCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WTKCalendar/WTKCalendar-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F57A24601D5C0AED00A8BF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTKCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTKCalendar.app/WTKCalendar";
+			};
+			name = Debug;
+		};
+		F57A24611D5C0AED00A8BF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTKCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTKCalendar.app/WTKCalendar";
+			};
+			name = Release;
+		};
+		F57A24631D5C0AED00A8BF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTKCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTKCalendar;
+			};
+			name = Debug;
+		};
+		F57A24641D5C0AED00A8BF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTKCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTKCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F57A242F1D5C0AED00A8BF70 /* Build configuration list for PBXProject "WTKCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57A245A1D5C0AED00A8BF70 /* Debug */,
+				F57A245B1D5C0AED00A8BF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57A245C1D5C0AED00A8BF70 /* Build configuration list for PBXNativeTarget "WTKCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57A245D1D5C0AED00A8BF70 /* Debug */,
+				F57A245E1D5C0AED00A8BF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57A245F1D5C0AED00A8BF70 /* Build configuration list for PBXNativeTarget "WTKCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57A24601D5C0AED00A8BF70 /* Debug */,
+				F57A24611D5C0AED00A8BF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57A24621D5C0AED00A8BF70 /* Build configuration list for PBXNativeTarget "WTKCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57A24631D5C0AED00A8BF70 /* Debug */,
+				F57A24641D5C0AED00A8BF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F57A242C1D5C0AED00A8BF70 /* Project object */;
+}
